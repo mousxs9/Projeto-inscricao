@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição programa de formação</title>
+    <title>Trilhas Inova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <form class="form" action="#">
+            <h1 class="form-title">Inscreva-se</h1>
+            <input ttextype="text" class="form-input" placeholder="Nome completo" required />
+            <input type="email" class="form-input" placeholder="E-mail" required />
+            <input type="number" class="form-input" placeholder="CPF" required />
+            <input type="number" class="form-input" placeholder="Telefone">
+            <input type="text" class="form-input" placeholder="Endereço">
+            <input type="text" class="form-input" placeholder="Cidade">
+            <div class="documents">
+                <div class="documents-card">
+                    <img class="documents-card-icon" src="source/upload_icon.svg" alt="Icone de Upload de Documento">
+                    <label for="identidade" class="documents-card-label">Selecione o arquivo ou arraste pra cá</label>
+                    <a href="#" class="documents-card-input">Selecione</a>
+                </div>
+                <div class="documents-card">
+                    <img class="documents-card-icon" src="source/upload_icon.svg" alt="Icone de Upload de Documento">
+                    <label for="comprovante" class="documents-card-label">Selecione o arquivo ou arraste pra cá</label>
+                    <a href="#" class="documents-card-input">Selecione</a>
+                </div>
+            </div>
+            <h4 class="text-mandatory">*Atenção todos os dados acima são obrigatórios.</h4>
+            <div class="form-buttons">
+                <input type="button" class="button--cancel" value="Cancelar">
+                <input type="submit" class="button--submit" placeholder="Enviar">
+            </div>
+        </form>
+        <div class="image-container">
+            <img class="image" src="source/imagem_trilhas.png" alt="Imagem principal trilhas inova">
+        </div>
+    </main>
+</body>
+
+</html>
